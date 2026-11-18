@@ -96,6 +96,14 @@ function groupRows(rows, key) {
   return groups;
 }
 
+function tournamentsByMonth(rows) {
+  return [...groupRows(rows, row => row.date.slice(0, 7))].map(([month, entries]) => {
+    const tournaments = [...groupRows(entries, row => row.competition_id).values()];
+    tournaments.sort(([a], [b]) => a.date.localeCompare(b.date));
+    return { month, tournaments };
+  });
+}
+
 function placement(value) {
   const chip = document.createElement("span");
   chip.className = "place";
@@ -149,13 +157,11 @@ function resultGroup(rows, byTournament) {
 function render(matches) {
   const items = document.createDocumentFragment();
   if (tournamentView.checked) {
-    for (const [month, rows] of groupRows(matches, row => row.date.slice(0, 7))) {
+    for (const { month, tournaments } of tournamentsByMonth(matches)) {
       const monthSection = items.appendChild(document.createElement("section"));
       monthSection.className = "result-month";
       const heading = monthSection.appendChild(document.createElement("h2"));
       heading.textContent = month ? monthFormat.format(new Date(`${month}-01`)) : "Date unavailable";
-      const tournaments = [...groupRows(rows, row => row.competition_id).values()];
-      tournaments.sort(([a], [b]) => a.date.localeCompare(b.date));
       for (const tournament of tournaments) {
         monthSection.append(resultGroup(tournament, true));
       }
@@ -182,13 +188,17 @@ function tsvCell(value) {
 }
 
 function downloadTsv(rows) {
-  const lines = [["Tournament", "Date", "Age category", "Weight category", "Fighter", "Place"]];
-  for (const tournament of groupRows(rows, row => row.competition_id).values()) {
-    for (const row of tournament) {
-      lines.push([row.competition, row.date, row.age_category, row.weight_category, row.name, row.place]);
-    }
-  }
-  const tsv = lines.map(line => line.map(tsvCell).join("\t")).join("\r\n");
+  const tournaments = tournamentsByMonth(rows).flatMap(group => group.tournaments);
+  const sections = tournaments.map(tournament => {
+    const first = tournament[0];
+    const lines = [
+      [first.competition ?? "Tournament", first.date],
+      ["Age category", "Weight category", "Fighter", "Place"],
+      ...tournament.map(row => [row.age_category, row.weight_category, row.name, row.place]),
+    ];
+    return lines.map(line => line.map(tsvCell).join("\t")).join("\r\n");
+  });
+  const tsv = sections.join("\r\n\r\n");
   const url = URL.createObjectURL(new Blob(["\uFEFF", tsv, "\r\n"], {
     type: "text/tab-separated-values;charset=utf-8",
   }));
