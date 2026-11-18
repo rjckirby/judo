@@ -2,6 +2,7 @@
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+from datetime import date
 import json
 import subprocess
 import sys
@@ -11,12 +12,13 @@ from urllib.parse import quote, urlencode
 API = "https://datav2.judomanager.com/api"
 PORTAL = "https://portal.judomanager.com"
 JJCB = 2219
+SJV = 19
 
 
 def get(endpoint, **params):
     url = f"{API}/{endpoint}?{urlencode(dict(params, Language='en'))}"
     response = subprocess.run(
-        ["curl", "-fsS", "--max-time", "20", "--retry", "2",
+        ["curl", "-fsS", "--compressed", "--max-time", "20", "--retry", "2",
          "--retry-max-time", "30", url],
         capture_output=True,
     )
@@ -65,6 +67,66 @@ def athlete_results(athlete, year):
     return record
 
 
+def athlete_from_person(person):
+    return {
+        "idAthlete": person["idPerson"],
+        "firstName": person["givenName"],
+        "lastName": person["familyName"],
+    }
+
+
+def swiss_result_events(year):
+    today = date.today()
+    first = date(year or today.year - 1, 1, 1)
+    last = date(year, 12, 31) if year else today
+    page = 1
+    while True:
+        calendar = get("Calendar", Type="Competitions", PartnersIds=SJV,
+                       DateFrom=first, DateTo=last, Page=page, PerPage=100)
+        for event in calendar["list"]:
+            details = event.get("competitionOnlyDetails") or {}
+            if details.get("hasIndividualResults"):
+                yield event["idEntity"]
+        if not calendar["hasMore"]:
+            return
+        page += 1
+
+
+def tournament_athletes(competition_id):
+    results = get("Competition/GetResults", IdCompetition=competition_id)
+    athletes = {}
+    for result in results:
+        person = result.get("person") or {}
+        club = result.get("club") or {}
+        if club.get("idClub") == JJCB and person.get("idClub") == JJCB:
+            athletes[person["idPerson"]] = athlete_from_person(person)
+    return athletes
+
+
+def club_athletes(athlete_ids, year):
+    roster = get(f"Clubs/{JJCB}/Athletes")
+    athletes = {athlete["idAthlete"]: athlete for athlete in roster}
+    if athlete_ids:
+        selected = {}
+        for athlete_id in dict.fromkeys(athlete_ids):
+            athlete = athletes.get(athlete_id)
+            if athlete is None:
+                profile = get("JudokaProfile/Info", IdAthlete=athlete_id)["athlete"]
+                if profile["idClub"] != JJCB:
+                    raise ValueError(f"Athlete {athlete_id} is absent from the JJC Bern roster and has a different club")
+                athlete = athlete_from_person(profile)
+            selected[athlete_id] = athlete
+        return selected
+
+    # The public roster omits some competitors listed in federation results.
+    events = list(dict.fromkeys(swiss_result_events(year)))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for discovered in pool.map(tournament_athletes, events):
+            for athlete_id, athlete in discovered.items():
+                athletes.setdefault(athlete_id, athlete)
+    return athletes
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--year", type=int, help="Limit to one year. Default is all published years.")
@@ -73,14 +135,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        roster = get(f"Clubs/{JJCB}/Athletes")
-        athletes = {athlete["idAthlete"]: athlete for athlete in roster}
-        if args.athlete_id:
-            missing = set(args.athlete_id) - athletes.keys()
-            if missing:
-                ids = ", ".join(map(str, sorted(missing)))
-                raise ValueError(f"IDs absent from the public JJCB roster: {ids}")
-            athletes = {key: athletes[key] for key in args.athlete_id}
+        athletes = club_athletes(args.athlete_id, args.year)
     except (ValueError, KeyError, TypeError, OSError) as error:
         parser.exit(1, f"Could not load JJC Bern athletes: {error}\n")
 

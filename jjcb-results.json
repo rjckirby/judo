@@ -5699,6 +5699,2205 @@
       "name": "Maria ZIMMER",
       "profile_url": "https://portal.judomanager.com/judoka/122974",
       "results": []
+    },
+    {
+      "athlete_id": 335674,
+      "name": "Adam PANOSIAN",
+      "profile_url": "https://portal.judomanager.com/judoka/335674",
+      "results": [
+        {
+          "competition_id": 7135,
+          "competition": "Swiss Youth Team Championships 2026",
+          "date": "2026-11-08",
+          "competition_url": "https://portal.judomanager.com/competition/swiss_youth_team_championships_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-55 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-55 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6277,
+          "competition": "Schülerturnier ~ St. Gallen 2026",
+          "date": "2026-04-26",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "G-4",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6181,
+          "competition": "Schülerturnier ~ Rheintal 2026",
+          "date": "2026-03-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_rheintal_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6127,
+          "competition": "Tournoi National Écoliers ~ Morges 2026",
+          "date": "2026-01-18",
+          "competition_url": "https://portal.judomanager.com/competition/morges_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-50 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5697,
+          "competition": "Nationales Schülerturnier ∼ Uster 2025",
+          "date": "2025-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/nationales_schulerturnier_uster_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 5169,
+          "competition": "Schülerturnier ~ Murten 2025",
+          "date": "2025-09-28",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5673,
+          "competition": "Schülerturnier ~ Weinfelden 2025",
+          "date": "2025-09-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5285,
+          "competition": "Schülerturnier ∼ St. Gallen 2025",
+          "date": "2025-04-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Male",
+          "weight_category": "G-5",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5199,
+          "competition": "Schülerturnier ∼ Oensingen 2025",
+          "date": "2025-02-02",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_oensingen_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "G-24",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5142,
+          "competition": "Tournoi National Écoliers - Morges 2025",
+          "date": "2025-01-19",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_morges_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-45 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4606,
+          "competition": "Ranking 1000 & Schülerturnier ∼ Weinfelden 2024",
+          "date": "2024-09-07",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_1000_weinfelden_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "G-6",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 409361,
+      "name": "Venia MEWES",
+      "profile_url": "https://portal.judomanager.com/judoka/409361",
+      "results": [
+        {
+          "competition_id": 7135,
+          "competition": "Swiss Youth Team Championships 2026",
+          "date": "2026-11-08",
+          "competition_url": "https://portal.judomanager.com/competition/swiss_youth_team_championships_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-52 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-57 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5831,
+          "competition": "Schülerturnier ~ Murten 2026",
+          "date": "2026-09-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-52 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-52 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-52 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "G-2",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-48 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 6127,
+          "competition": "Tournoi National Écoliers ~ Morges 2026",
+          "date": "2026-01-18",
+          "competition_url": "https://portal.judomanager.com/competition/morges_2026",
+          "age_category": "U15 - Female",
+          "weight_category": "-48 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5697,
+          "competition": "Nationales Schülerturnier ∼ Uster 2025",
+          "date": "2025-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/nationales_schulerturnier_uster_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-48 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5169,
+          "competition": "Schülerturnier ~ Murten 2025",
+          "date": "2025-09-28",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-48 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5673,
+          "competition": "Schülerturnier ~ Weinfelden 2025",
+          "date": "2025-09-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-48 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 335686,
+      "name": "Camille BOVET",
+      "profile_url": "https://portal.judomanager.com/judoka/335686",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-8",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-10",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-7",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-9",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6277,
+          "competition": "Schülerturnier ~ St. Gallen 2026",
+          "date": "2026-04-26",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-11",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6127,
+          "competition": "Tournoi National Écoliers ~ Morges 2026",
+          "date": "2026-01-18",
+          "competition_url": "https://portal.judomanager.com/competition/morges_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "-28 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5697,
+          "competition": "Nationales Schülerturnier ∼ Uster 2025",
+          "date": "2025-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/nationales_schulerturnier_uster_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5142,
+          "competition": "Tournoi National Écoliers - Morges 2025",
+          "date": "2025-01-19",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_morges_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "-26 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-6",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-3",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 1,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 335638,
+      "name": "Niklas KIRBY",
+      "profile_url": "https://portal.judomanager.com/judoka/335638",
+      "results": [
+        {
+          "competition_id": 7135,
+          "competition": "Swiss Youth Team Championships 2026",
+          "date": "2026-11-08",
+          "competition_url": "https://portal.judomanager.com/competition/swiss_youth_team_championships_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-36 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-33 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6277,
+          "competition": "Schülerturnier ~ St. Gallen 2026",
+          "date": "2026-04-26",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-3",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6181,
+          "competition": "Schülerturnier ~ Rheintal 2026",
+          "date": "2026-03-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_rheintal_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-6",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5285,
+          "competition": "Schülerturnier ∼ St. Gallen 2025",
+          "date": "2025-04-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-11",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5142,
+          "competition": "Tournoi National Écoliers - Morges 2025",
+          "date": "2025-01-19",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_morges_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "-28 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-4",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4606,
+          "competition": "Ranking 1000 & Schülerturnier ∼ Weinfelden 2024",
+          "date": "2024-09-07",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_1000_weinfelden_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-4",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-4",
+          "place": 1,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 385640,
+      "name": "Rewa BRUPBACHER",
+      "profile_url": "https://portal.judomanager.com/judoka/385640",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 5831,
+          "competition": "Schülerturnier ~ Murten 2026",
+          "date": "2026-09-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-2",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Female",
+          "weight_category": "G-1",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 668057,
+      "name": "Jeanne BÉTRISEY",
+      "profile_url": "https://portal.judomanager.com/judoka/668057",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 5831,
+          "competition": "Schülerturnier ~ Murten 2026",
+          "date": "2026-09-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-3",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 786719,
+      "name": "Enea GONZALES",
+      "profile_url": "https://portal.judomanager.com/judoka/786719",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 607927,
+      "name": "Nuria MINATTI",
+      "profile_url": "https://portal.judomanager.com/judoka/607927",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-48 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 6277,
+          "competition": "Schülerturnier ~ St. Gallen 2026",
+          "date": "2026-04-26",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-4",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-8",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6127,
+          "competition": "Tournoi National Écoliers ~ Morges 2026",
+          "date": "2026-01-18",
+          "competition_url": "https://portal.judomanager.com/competition/morges_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 618774,
+      "name": "Elinya FECHNER",
+      "profile_url": "https://portal.judomanager.com/judoka/618774",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-48 kg",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 7,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-44 kg",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 709334,
+      "name": "Lucius HARTMANN",
+      "profile_url": "https://portal.judomanager.com/judoka/709334",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-7",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-10",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 493403,
+      "name": "Branko BULIC",
+      "profile_url": "https://portal.judomanager.com/judoka/493403",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-9",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 418692,
+      "name": "Omar EL YOUNSSI JEBLI",
+      "profile_url": "https://portal.judomanager.com/judoka/418692",
+      "results": [
+        {
+          "competition_id": 6285,
+          "competition": "Schülerturnier ~ Uster 2026",
+          "date": "2026-11-01",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_uster_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-13",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 669965,
+      "name": "Boris Deyvid TODOROV",
+      "profile_url": "https://portal.judomanager.com/judoka/669965",
+      "results": [
+        {
+          "competition_id": 5831,
+          "competition": "Schülerturnier ~ Murten 2026",
+          "date": "2026-09-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-19",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-15",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-10",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417042,
+      "name": "Diego RAMADORI",
+      "profile_url": "https://portal.judomanager.com/judoka/417042",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-6",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5673,
+          "competition": "Schülerturnier ~ Weinfelden 2025",
+          "date": "2025-09-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-20",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-11",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-13",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-6",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417031,
+      "name": "Mina BRUDERMANN",
+      "profile_url": "https://portal.judomanager.com/judoka/417031",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-28 kg",
+          "place": 1,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 335492,
+      "name": "Leon BELMAHDI",
+      "profile_url": "https://portal.judomanager.com/judoka/335492",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-9",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-12",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-11",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U9 - Male",
+          "weight_category": "G-5",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5142,
+          "competition": "Tournoi National Écoliers - Morges 2025",
+          "date": "2025-01-19",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_morges_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "-28 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-4",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 525612,
+      "name": "Eli GRÄNICHER",
+      "profile_url": "https://portal.judomanager.com/judoka/525612",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-14",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-6",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 668039,
+      "name": "Elisa RÜSI",
+      "profile_url": "https://portal.judomanager.com/judoka/668039",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U11 - Female",
+          "weight_category": "G-2",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-3",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 361328,
+      "name": "Noe FIECHTER",
+      "profile_url": "https://portal.judomanager.com/judoka/361328",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-3",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 361322,
+      "name": "Amin HERSCHEL",
+      "profile_url": "https://portal.judomanager.com/judoka/361322",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-7",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-1",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 668035,
+      "name": "Omar EL YOUNISSI JEBLI",
+      "profile_url": "https://portal.judomanager.com/judoka/668035",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U9 - Male",
+          "weight_category": "G-11",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-7",
+          "place": 5,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 340796,
+      "name": "Milos NESTOROVIC",
+      "profile_url": "https://portal.judomanager.com/judoka/340796",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "Seniors - Male",
+          "weight_category": "G-5",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "Seniors - Male",
+          "weight_category": "G-8",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "Seniors - Male",
+          "weight_category": "-81 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "Veterans M",
+          "weight_category": "G-1",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "Seniors - Male",
+          "weight_category": "-81 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "Veterans M",
+          "weight_category": "G-2",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 335670,
+      "name": "Julian ALTHAUS",
+      "profile_url": "https://portal.judomanager.com/judoka/335670",
+      "results": [
+        {
+          "competition_id": 6277,
+          "competition": "Schülerturnier ~ St. Gallen 2026",
+          "date": "2026-04-26",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-45 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "G-2",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U15 - Male",
+          "weight_category": "-45 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5169,
+          "competition": "Schülerturnier ~ Murten 2025",
+          "date": "2025-09-28",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Male",
+          "weight_category": "G-4",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 4921,
+          "competition": "Swiss Youth Team Championships",
+          "date": "2024-11-10",
+          "competition_url": "https://portal.judomanager.com/competition/swiss_youth_team_championships_2024",
+          "age_category": "U15 - Male",
+          "weight_category": "-36 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-36 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "-36 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U13 - Male",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 116304,
+      "name": "Raphael SIEGFRIED",
+      "profile_url": "https://portal.judomanager.com/judoka/116304",
+      "results": [
+        {
+          "competition_id": 5831,
+          "competition": "Schülerturnier ~ Murten 2026",
+          "date": "2026-09-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_murten_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-33 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6283,
+          "competition": "Schülerturnier ~ Weinfelden 2026",
+          "date": "2026-09-13",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-33 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6127,
+          "competition": "Tournoi National Écoliers ~ Morges 2026",
+          "date": "2026-01-18",
+          "competition_url": "https://portal.judomanager.com/competition/morges_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-30 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-7",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-3",
+          "place": 1,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 347296,
+      "name": "Zeno NOVAK",
+      "profile_url": "https://portal.judomanager.com/judoka/347296",
+      "results": [
+        {
+          "competition_id": 6279,
+          "competition": "Tournoi Écoliers ~ Sierre 2026",
+          "date": "2026-05-31",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_ecoliers_sierre_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-5",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 5697,
+          "competition": "Nationales Schülerturnier ∼ Uster 2025",
+          "date": "2025-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/nationales_schulerturnier_uster_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-20",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-10",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 116907,
+      "name": "Matti STEPIZL",
+      "profile_url": "https://portal.judomanager.com/judoka/116907",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-7",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U13 - Male",
+          "weight_category": "G-22",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U13 - Male",
+          "weight_category": "-36 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 323358,
+      "name": "Enea GONZÁLEZ",
+      "profile_url": "https://portal.judomanager.com/judoka/323358",
+      "results": [
+        {
+          "competition_id": 6281,
+          "competition": "Schülerturnier ~ Spiez 2026",
+          "date": "2026-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "-40 kg",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-6",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5697,
+          "competition": "Nationales Schülerturnier ∼ Uster 2025",
+          "date": "2025-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/nationales_schulerturnier_uster_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-36 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5673,
+          "competition": "Schülerturnier ~ Weinfelden 2025",
+          "date": "2025-09-14",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_weinfelden_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-36 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-36 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5418,
+          "competition": "Tournoi National Écoliers ~ Sierre 2025",
+          "date": "2025-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/tournoi_national_ecoliers_sierre_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-36 kg",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5285,
+          "competition": "Schülerturnier ∼ St. Gallen 2025",
+          "date": "2025-04-27",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_st_gallen_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "-36 kg",
+          "place": 5,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Female",
+          "weight_category": "G-2",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 5199,
+          "competition": "Schülerturnier ∼ Oensingen 2025",
+          "date": "2025-02-02",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_oensingen_2025",
+          "age_category": "U13 - Female",
+          "weight_category": "G-5",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-5",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4612,
+          "competition": "Ranking 1000 & Schülerturnier ~ Murten 2024",
+          "date": "2024-09-21",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_1000_murten_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-8",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-6",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-3",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4489,
+          "competition": "Ranking 500 & Schülerturnier ∼ Oensingen 2024",
+          "date": "2024-02-03",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_oensingen_2024",
+          "age_category": "U11 - Female",
+          "weight_category": "G-6",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417048,
+      "name": "Elinya FECHNER",
+      "profile_url": "https://portal.judomanager.com/judoka/417048",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U13 - Female",
+          "weight_category": "G-4",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U13 - Female",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 668048,
+      "name": "Jaro OSER",
+      "profile_url": "https://portal.judomanager.com/judoka/668048",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 323359,
+      "name": "Leonel GONZÁLEZ",
+      "profile_url": "https://portal.judomanager.com/judoka/323359",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-4",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5199,
+          "competition": "Schülerturnier ∼ Oensingen 2025",
+          "date": "2025-02-02",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_oensingen_2025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": null,
+          "points": null
+        },
+        {
+          "competition_id": 4686,
+          "competition": "Ranking 500 & Schülerturnier ∼ Uster 2024",
+          "date": "2024-11-02",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_uster_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-5",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 4612,
+          "competition": "Ranking 1000 & Schülerturnier ~ Murten 2024",
+          "date": "2024-09-21",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_1000_murten_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-5",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-3",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4684,
+          "competition": "Ranking 500 & Tournoi Ecoliers ∼ Sierre 2024",
+          "date": "2024-05-25",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_sierre_2024",
+          "age_category": "U9 - Male",
+          "weight_category": "G-3",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 4753,
+          "competition": "Kantonalbernische Meisterschaften KBM 2024",
+          "date": "2024-03-23",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-1",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4489,
+          "competition": "Ranking 500 & Schülerturnier ∼ Oensingen 2024",
+          "date": "2024-02-03",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_oensingen_2024",
+          "age_category": "U11 - Male",
+          "weight_category": "G-2",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417039,
+      "name": "Elio CASTIGLIONE",
+      "profile_url": "https://portal.judomanager.com/judoka/417039",
+      "results": [
+        {
+          "competition_id": 6557,
+          "competition": "Kantonalbernische Meisterschaften KBM 2026",
+          "date": "2026-03-21",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-7",
+          "place": 3,
+          "points": null
+        },
+        {
+          "competition_id": 6099,
+          "competition": "Schülerturnier ∼ Oensingen 2026",
+          "date": "2026-02-01",
+          "competition_url": "https://portal.judomanager.com/competition/oensingen_2026",
+          "age_category": "U11 - Male",
+          "weight_category": "G-25",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-7",
+          "place": 5,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417041,
+      "name": "Caspar GUSSAROW",
+      "profile_url": "https://portal.judomanager.com/judoka/417041",
+      "results": [
+        {
+          "competition_id": 5605,
+          "competition": "Schülerturnier ~ Spiez 2025",
+          "date": "2025-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/schulerturnier_spiez_2025",
+          "age_category": "U9 - Male",
+          "weight_category": "G-4",
+          "place": 4,
+          "points": null
+        },
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-1",
+          "place": null,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 347059,
+      "name": "Jasmin BAUMGARTNER",
+      "profile_url": "https://portal.judomanager.com/judoka/347059",
+      "results": [
+        {
+          "competition_id": 5604,
+          "competition": "Ranking Turnier 500 ~ Spiez 2025",
+          "date": "2025-06-14",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_turnier_500_spiez2025",
+          "age_category": "Seniors - Female",
+          "weight_category": "-78 kg",
+          "place": 1,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "Seniors - Female",
+          "weight_category": "-78 kg",
+          "place": 2,
+          "points": null
+        },
+        {
+          "competition_id": 4828,
+          "competition": "Ranking 500 & Schülerturnier ∼ Spiez 2024",
+          "date": "2024-06-15",
+          "competition_url": "https://portal.judomanager.com/competition/ranking_500_spiez_2024",
+          "age_category": "Seniors - Female",
+          "weight_category": "open",
+          "place": 3,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417029,
+      "name": "Rob WEBSTER",
+      "profile_url": "https://portal.judomanager.com/judoka/417029",
+      "results": [
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "Seniors - Male",
+          "weight_category": "G-9",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 418809,
+      "name": "Mina BRUDERMANN",
+      "profile_url": "https://portal.judomanager.com/judoka/418809",
+      "results": [
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-1",
+          "place": 2,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417038,
+      "name": "Noe BRUDEMANN",
+      "profile_url": "https://portal.judomanager.com/judoka/417038",
+      "results": [
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-4",
+          "place": 4,
+          "points": null
+        }
+      ]
+    },
+    {
+      "athlete_id": 417040,
+      "name": "Moritz GASSER",
+      "profile_url": "https://portal.judomanager.com/judoka/417040",
+      "results": [
+        {
+          "competition_id": 5342,
+          "competition": "Kantonalbernische Meisterschaften KBM 2025",
+          "date": "2025-03-22",
+          "competition_url": "https://portal.judomanager.com/competition/kantonalbernische_meisterschaften_kbm_20252025",
+          "age_category": "U11 - Male",
+          "weight_category": "G-5",
+          "place": 4,
+          "points": null
+        }
+      ]
     }
   ]
 }

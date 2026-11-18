@@ -11,14 +11,22 @@
 <body>
   <header class="masthead">
     <div class="wrap">
+      <h1>Tournament results</h1>
       <a class="club" href="https://www.jjcb.ch/">
         <img src="./site/jjcb-logo.png" width="456" height="291" alt="Judo &amp; Ju-Jitsu Club Bern">
       </a>
-      <h1>Tournament results</h1>
     </div>
   </header>
   <main class="wrap">
     <form class="filters" role="search">
+      <div class="results-toolbar">
+        <fieldset id="group-by" class="segments" disabled>
+          <legend class="sr">Group results by</legend>
+          <label><input class="sr" type="radio" name="group" value="tournament" autocomplete="off" checked><span>Tournament</span></label>
+          <label><input class="sr" type="radio" name="group" value="fighter" autocomplete="off"><span>Fighter</span></label>
+        </fieldset>
+        <button id="download" type="button" disabled>Download TSV</button>
+      </div>
       <label>Fighter or tournament
         <input id="query" type="search" placeholder="Search results" disabled>
       </label>
@@ -30,20 +38,14 @@
           <input id="include-unplaced" type="checkbox" autocomplete="off" disabled>
           Include results with no placement
         </label>
-        <button id="download" type="button" disabled>Download TSV</button>
       </div>
     </form>
     <p id="status" role="status">Loading results…</p>
-    <table id="results" aria-label="Tournament results" hidden>
-      <thead>
-        <tr><th scope="col">Fighter</th><th scope="col">Tournament</th><th scope="col">Place</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div id="results"></div>
     <noscript>Enable JavaScript to browse tournament results.</noscript>
     <footer>
       <p>Results may include appearances for other clubs. A dash means no place was published.</p>
-      <p>Results data provided by <a href="https://portal.judomanager.com/clubs/2219">JudoManager</a>.</p>
+      <p>Results data provided by <a href="https://portal.judomanager.com/sjv/clubs/2219">JudoManager</a>.</p>
     </footer>
   </main>
 </body>
