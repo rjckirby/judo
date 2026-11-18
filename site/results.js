@@ -22,7 +22,7 @@ function label(text, url) {
   return element;
 }
 
-function tournamentTitle(result, category) {
+function tournamentTitle(result, { showMonthAndYear = false, category } = {}) {
   const title = document.createElement("span");
   title.className = "tournament-title";
   if (result.date) {
@@ -33,12 +33,14 @@ function tournamentTitle(result, category) {
     badge.append(
       Object.assign(document.createElement("span"), { className: "sr", textContent: dayFormat.format(date) }),
       Object.assign(document.createElement("span"), { className: "date-day", ariaHidden: "true", textContent: date.getUTCDate() }),
-      Object.assign(document.createElement("span"), {
+    );
+    if (showMonthAndYear) {
+      badge.append(Object.assign(document.createElement("span"), {
         className: "date-month",
         ariaHidden: "true",
         textContent: `${badgeMonthFormat.format(date)} ’${result.date.slice(2, 4)}`,
-      }),
-    );
+      }));
+    }
     title.append(badge);
   }
   const name = document.createElement("span");
@@ -133,7 +135,8 @@ function resultGroup(rows, byTournament) {
     const row = body.insertRow();
     const subject = row.insertCell();
     const category = [result.age_category, result.weight_category].filter(Boolean).join(" · ");
-    subject.append(byTournament ? label(result.name, result.profileUrl) : tournamentTitle(result, category));
+    subject.append(byTournament ? label(result.name, result.profileUrl) :
+      tournamentTitle(result, { showMonthAndYear: true, category }));
     const details = document.createElement("small");
     details.textContent = category;
     row.insertCell().append(details);
@@ -151,7 +154,9 @@ function render(matches) {
       monthSection.className = "result-month";
       const heading = monthSection.appendChild(document.createElement("h2"));
       heading.textContent = month ? monthFormat.format(new Date(`${month}-01`)) : "Date unavailable";
-      for (const tournament of groupRows(rows, row => row.competition_id).values()) {
+      const tournaments = [...groupRows(rows, row => row.competition_id).values()];
+      tournaments.sort(([a], [b]) => a.date.localeCompare(b.date));
+      for (const tournament of tournaments) {
         monthSection.append(resultGroup(tournament, true));
       }
     }

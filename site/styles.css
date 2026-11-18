@@ -124,9 +124,10 @@ button:disabled { border-color: var(--rule); background: #eee; color: var(--mute
 .date-badge {
   display: inline-grid;
   flex: none;
-  grid-template-rows: auto auto;
+  place-content: center;
   justify-items: center;
   min-inline-size: 2.8rem;
+  min-block-size: 2.35rem;
   padding: .16rem .24rem .24rem;
   border: 1px solid var(--rule);
   border-block-start: 3px solid var(--accent);
