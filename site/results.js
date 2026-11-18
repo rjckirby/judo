@@ -9,6 +9,7 @@ const status = document.querySelector("#status");
 const results = document.querySelector("#results");
 const monthFormat = new Intl.DateTimeFormat("en", { month: "long", year: "numeric", timeZone: "UTC" });
 const dayFormat = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+const badgeMonthFormat = new Intl.DateTimeFormat("en", { month: "short", timeZone: "UTC" });
 
 function normalize(value) {
   return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
@@ -21,6 +22,34 @@ function label(text, url) {
   return element;
 }
 
+function tournamentTitle(result, category) {
+  const title = document.createElement("span");
+  title.className = "tournament-title";
+  if (result.date) {
+    const date = new Date(result.date);
+    const badge = document.createElement("time");
+    badge.className = "date-badge";
+    badge.dateTime = result.date;
+    badge.append(
+      Object.assign(document.createElement("span"), { className: "sr", textContent: dayFormat.format(date) }),
+      Object.assign(document.createElement("span"), { className: "date-day", ariaHidden: "true", textContent: date.getUTCDate() }),
+      Object.assign(document.createElement("span"), {
+        className: "date-month",
+        ariaHidden: "true",
+        textContent: `${badgeMonthFormat.format(date)} ’${result.date.slice(2, 4)}`,
+      }),
+    );
+    title.append(badge);
+  }
+  const name = document.createElement("span");
+  name.append(label(result.competition ?? "Tournament", result.competition_url));
+  if (category) {
+    name.append(Object.assign(document.createElement("small"), { className: "mobile-category", textContent: category }));
+  }
+  title.append(name);
+  return title;
+}
+
 function matchingRows(rows) {
   const terms = normalize(query.value).trim().split(/\s+/).filter(Boolean);
   return rows.filter(row =>
@@ -28,6 +57,31 @@ function matchingRows(rows) {
     (includeUnplaced.checked || row.place != null) &&
     terms.every(term => row.search.includes(term))
   );
+}
+
+function celebrateKirby() {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const { left, top, width, height } = query.getBoundingClientRect();
+  const burst = document.createElement("div");
+  burst.className = "confetti";
+  burst.setAttribute("aria-hidden", "true");
+  burst.style.left = `${left + width / 2}px`;
+  burst.style.top = `${top + height / 2}px`;
+  document.body.append(burst);
+
+  const colors = ["#cf230f", "#f0c24b", "#fff", "#11121d"];
+  for (let index = 0; index < 24; index++) {
+    const piece = burst.appendChild(document.createElement("span"));
+    piece.style.backgroundColor = colors[index % colors.length];
+    const spread = (Math.random() - .5) * Math.min(window.innerWidth, 420);
+    const rise = 40 + Math.random() * 90;
+    piece.animate([
+      { transform: "translate(0, 0) rotate(0turn)" },
+      { transform: `translate(${spread * .55}px, ${-rise}px) rotate(.45turn)`, offset: .4 },
+      { transform: `translate(${spread}px, 145px) rotate(1.2turn)`, opacity: 0 },
+    ], { duration: 700 + Math.random() * 350, easing: "ease-out", fill: "forwards" });
+  }
+  setTimeout(() => burst.remove(), 1100);
 }
 
 function groupRows(rows, key) {
@@ -57,19 +111,12 @@ function placement(value) {
 function resultGroup(rows, byTournament) {
   const first = rows[0];
   const section = document.createElement("section");
-  section.className = "result-group";
-  const title = byTournament ? first.competition ?? "Tournament" : first.name;
+  section.className = byTournament ? "result-group" : "result-group fighter-group";
   const id = byTournament ? `tournament-${first.competition_id}` : `fighter-${first.athleteId}`;
   const heading = document.createElement(byTournament ? "h3" : "h2");
   heading.id = id;
-  heading.append(label(title, byTournament ? first.competition_url : first.profileUrl));
+  heading.append(byTournament ? tournamentTitle(first) : label(first.name, first.profileUrl));
   section.append(heading);
-  if (byTournament && first.date) {
-    const date = document.createElement("time");
-    date.dateTime = first.date;
-    date.textContent = dayFormat.format(new Date(first.date));
-    section.append(date);
-  }
 
   const table = document.createElement("table");
   table.setAttribute("aria-labelledby", id);
@@ -85,16 +132,10 @@ function resultGroup(rows, byTournament) {
   for (const result of rows) {
     const row = body.insertRow();
     const subject = row.insertCell();
-    subject.append(byTournament ? label(result.name, result.profileUrl) :
-      label(result.competition ?? "Tournament", result.competition_url));
-    if (!byTournament && result.date) {
-      const date = document.createElement("time");
-      date.dateTime = result.date;
-      date.textContent = dayFormat.format(new Date(result.date));
-      subject.append(date);
-    }
+    const category = [result.age_category, result.weight_category].filter(Boolean).join(" · ");
+    subject.append(byTournament ? label(result.name, result.profileUrl) : tournamentTitle(result, category));
     const details = document.createElement("small");
-    details.textContent = [result.age_category, result.weight_category].filter(Boolean).join(" · ");
+    details.textContent = category;
     row.insertCell().append(details);
     row.insertCell().append(placement(result.place));
   }
@@ -116,7 +157,7 @@ function render(matches) {
     }
   } else {
     const fighters = [...groupRows(matches, row => row.athleteId).values()];
-    fighters.sort(([a], [b]) => a.name.localeCompare(b.name));
+    fighters.sort(([a], [b]) => b.date.localeCompare(a.date) || a.name.localeCompare(b.name));
     for (const fighter of fighters) items.append(resultGroup(fighter, false));
   }
   results.replaceChildren(items);
@@ -184,6 +225,15 @@ async function load() {
     const update = () => render(matchingRows(rows));
     filters.addEventListener("input", update);
     groupBy.addEventListener("input", update);
+    let kirbyCelebrated = false;
+    query.addEventListener("input", () => {
+      if (!/\bkirby\b/.test(normalize(query.value))) {
+        kirbyCelebrated = false;
+      } else if (!kirbyCelebrated && matchingRows(rows).some(row => /\bkirby\b/.test(normalize(row.name)))) {
+        kirbyCelebrated = true;
+        celebrateKirby();
+      }
+    });
     download.addEventListener("click", () => downloadTsv(matchingRows(rows)));
     update();
   } catch (error) {

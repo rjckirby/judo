@@ -99,6 +99,8 @@ button {
 button:disabled { border-color: var(--rule); background: #eee; color: var(--muted); cursor: default; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 #status { color: var(--muted); margin: 0; font-size: .9rem; }
+.confetti { position: fixed; z-index: 1; pointer-events: none; }
+.confetti span { position: absolute; width: .4rem; height: .6rem; border-radius: 1px; }
 .result-month { margin-block: 1.5rem 2rem; }
 .result-month > h2 {
   margin: 0 0 .85rem;
@@ -117,7 +119,24 @@ button:disabled { border-color: var(--rule); background: #eee; color: var(--mute
   text-decoration: underline;
   text-underline-offset: .18em;
 }
-.result-group > time, td time { display: block; color: var(--muted); font-size: .85rem; }
+.tournament-title { display: flex; align-items: center; gap: .55rem; }
+.tournament-title > :last-child { min-width: 0; overflow-wrap: anywhere; }
+.date-badge {
+  display: inline-grid;
+  flex: none;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  min-inline-size: 2.8rem;
+  padding: .16rem .24rem .24rem;
+  border: 1px solid var(--rule);
+  border-block-start: 3px solid var(--accent);
+  border-radius: .3rem;
+  background: #fff;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+.date-day { font-size: 1rem; font-weight: 600; }
+.date-month { color: var(--muted); font-size: .625rem; font-weight: 600; white-space: nowrap; }
 .result-group table { margin-top: .5rem; }
 table { width: 100%; border-collapse: collapse; background: #fff; }
 thead { background: #ededee; color: var(--muted); font-size: .85rem; }
@@ -128,6 +147,7 @@ th:first-child { width: 56%; }
 .result-month td:first-child { font-weight: 600; }
 th:last-child, td:last-child { text-align: right; width: 1%; font-variant-numeric: tabular-nums; }
 td small { display: block; color: var(--muted); }
+.fighter-group .mobile-category { display: none; }
 .place {
   display: inline-grid;
   place-items: center;
@@ -157,5 +177,8 @@ footer a { color: var(--accent); }
   .filter-actions { grid-column: 1; grid-row: 2; }
   th, td { padding: .55rem .4rem; }
   th:first-child { width: 49%; }
+  .fighter-group th:first-child { width: auto; }
+  .fighter-group :is(th, td):nth-child(2) { display: none; }
+  .fighter-group .mobile-category { display: block; }
   table { font-size: .88rem; }
 }
