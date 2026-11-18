@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tournament results for Judo & Ju-Jitsu Club Bern.">
+  <title>JJCB Tournament Results</title>
+  <link rel="stylesheet" href="./site/styles.css">
+  <script type="module" src="./site/results.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="club" href="https://www.jjcb.ch/">Judo &amp; Ju-Jitsu Club Bern</a>
+      <h1>Tournament results</h1>
+    </div>
+  </header>
+  <main class="wrap">
+    <form class="filters" role="search">
+      <label>Fighter or tournament
+        <input id="query" type="search" placeholder="Search results" disabled>
+      </label>
+      <label>Year
+        <select id="year" disabled><option value="">All years</option></select>
+      </label>
+    </form>
+    <p id="status" role="status">Loading results…</p>
+    <table id="results" aria-label="Tournament results" hidden>
+      <thead>
+        <tr><th scope="col">Fighter</th><th scope="col">Tournament</th><th scope="col">Place</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <noscript>Enable JavaScript to browse tournament results.</noscript>
+    <footer>Results for the <a href="https://portal.judomanager.com/clubs/2219">JudoManager club roster</a> may include appearances for other clubs. A dash means no place was published.</footer>
+  </main>
+</body>
+</html>

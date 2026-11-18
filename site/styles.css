@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light;
+  font-family: "Avenir Next", Avenir, system-ui, sans-serif;
+  color: #17253a;
+  background: #f3f6fa;
+  line-height: 1.5;
+  --accent: #2056ae;
+  --muted: #465a73;
+  --rule: #d2dae6;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+.wrap { width: min(68rem, 100% - 2rem); margin-inline: auto; }
+.masthead {
+  color: #fff;
+  background: #142644;
+  border-bottom: .45rem solid #477dde;
+  padding: clamp(1.6rem, 5vw, 3rem) 0;
+}
+.club { color: #dfeaff; font-weight: 600; }
+h1 {
+  font-size: clamp(2rem, 7vw, 4.2rem);
+  line-height: 1.04;
+  letter-spacing: -.055em;
+  margin: .45rem 0 0;
+}
+.filters {
+  display: grid;
+  grid-template-columns: minmax(0, 26rem) minmax(6.5rem, 9rem);
+  gap: .75rem;
+  margin-top: 1.6rem;
+}
+label { display: grid; gap: .3rem; font-weight: 650; font-size: .9rem; }
+input, select {
+  width: 100%;
+  padding: .55rem .65rem;
+  min-height: 2.75rem;
+  background: #fff;
+  border: 1px solid #8a9db7;
+  border-radius: .3rem;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+}
+:focus-visible { outline: 3px solid #477dde; outline-offset: 3px; }
+#status { color: var(--muted); margin: 1.2rem 0 .55rem; font-size: .9rem; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+thead { background: #e4edf9; }
+th, td { text-align: left; padding: .65rem .85rem; border-bottom: 1px solid var(--rule); }
+td { vertical-align: top; overflow-wrap: anywhere; }
+th:first-child { width: 31%; }
+th:last-child, td:last-child { text-align: right; width: 1%; font-variant-numeric: tabular-nums; }
+td a { color: var(--accent); text-decoration-color: #88a7d6; text-underline-offset: .16em; }
+td small { display: block; color: var(--muted); margin-top: .1rem; }
+.podium { color: var(--accent); font-weight: 750; }
+footer {
+  margin-block: 1.2rem 2rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+footer a { color: var(--accent); }
+
+@media (max-width: 35rem) {
+  th, td { padding: .55rem .4rem; }
+  th:first-child { width: 34%; }
+  table { font-size: .88rem; }
+}
