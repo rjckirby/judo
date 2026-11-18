@@ -136,9 +136,11 @@ function tsvCell(value) {
 }
 
 function downloadTsv(rows) {
-  const lines = [["Fighter", "Tournament", "Date", "Age category", "Weight category", "Place"]];
-  for (const row of rows) {
-    lines.push([row.name, row.competition, row.date, row.age_category, row.weight_category, row.place]);
+  const lines = [["Tournament", "Date", "Age category", "Weight category", "Fighter", "Place"]];
+  for (const tournament of groupRows(rows, row => row.competition_id).values()) {
+    for (const row of tournament) {
+      lines.push([row.competition, row.date, row.age_category, row.weight_category, row.name, row.place]);
+    }
   }
   const tsv = lines.map(line => line.map(tsvCell).join("\t")).join("\r\n");
   const url = URL.createObjectURL(new Blob(["\uFEFF", tsv, "\r\n"], {
