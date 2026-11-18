@@ -11,7 +11,9 @@
 <body>
   <header class="masthead">
     <div class="wrap">
-      <a class="club" href="https://www.jjcb.ch/">Judo &amp; Ju-Jitsu Club Bern</a>
+      <a class="club" href="https://www.jjcb.ch/">
+        <img src="./site/jjcb-logo.png" width="456" height="291" alt="Judo &amp; Ju-Jitsu Club Bern">
+      </a>
       <h1>Tournament results</h1>
     </div>
   </header>
@@ -23,6 +25,13 @@
       <label>Year
         <select id="year" disabled><option value="">All years</option></select>
       </label>
+      <div class="filter-actions">
+        <label class="include-unplaced">
+          <input id="include-unplaced" type="checkbox" autocomplete="off" disabled>
+          Include results with no placement
+        </label>
+        <button id="download" type="button" disabled>Download TSV</button>
+      </div>
     </form>
     <p id="status" role="status">Loading results…</p>
     <table id="results" aria-label="Tournament results" hidden>
@@ -32,7 +41,10 @@
       <tbody></tbody>
     </table>
     <noscript>Enable JavaScript to browse tournament results.</noscript>
-    <footer>Results for the <a href="https://portal.judomanager.com/clubs/2219">JudoManager club roster</a> may include appearances for other clubs. A dash means no place was published.</footer>
+    <footer>
+      <p>Results may include appearances for other clubs. A dash means no place was published.</p>
+      <p>Results data provided by <a href="https://portal.judomanager.com/clubs/2219">JudoManager</a>.</p>
+    </footer>
   </main>
 </body>
 </html>
