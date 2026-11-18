@@ -3,7 +3,7 @@ const query = document.querySelector("#query");
 const year = document.querySelector("#year");
 const includeUnplaced = document.querySelector("#include-unplaced");
 const groupBy = document.querySelector("#group-by");
-const grouping = filters.elements.group;
+const tournamentView = groupBy.querySelector('[value="tournament"]');
 const download = document.querySelector("#download");
 const status = document.querySelector("#status");
 const results = document.querySelector("#results");
@@ -104,7 +104,7 @@ function resultGroup(rows, byTournament) {
 
 function render(matches) {
   const items = document.createDocumentFragment();
-  if (grouping.value === "tournament") {
+  if (tournamentView.checked) {
     for (const [month, rows] of groupRows(matches, row => row.date.slice(0, 7))) {
       const monthSection = items.appendChild(document.createElement("section"));
       monthSection.className = "result-month";
@@ -174,13 +174,14 @@ async function load() {
     }
     year.value = currentYear;
     includeUnplaced.checked = false;
-    grouping.value = "tournament";
+    tournamentView.checked = true;
     query.disabled = false;
     year.disabled = false;
     includeUnplaced.disabled = false;
     groupBy.disabled = false;
     const update = () => render(matchingRows(rows));
     filters.addEventListener("input", update);
+    groupBy.addEventListener("input", update);
     download.addEventListener("click", () => downloadTsv(matchingRows(rows)));
     update();
   } catch (error) {

@@ -19,20 +19,13 @@
   </header>
   <main class="wrap">
     <form class="filters" role="search">
-      <div class="results-toolbar">
-        <fieldset id="group-by" class="segments" disabled>
-          <legend class="sr">Group results by</legend>
-          <label><input class="sr" type="radio" name="group" value="tournament" autocomplete="off" checked><span>Tournament</span></label>
-          <label><input class="sr" type="radio" name="group" value="fighter" autocomplete="off"><span>Fighter</span></label>
-        </fieldset>
-        <button id="download" type="button" disabled>Download TSV</button>
-      </div>
       <label>Fighter or tournament
         <input id="query" type="search" placeholder="Search results" disabled>
       </label>
       <label>Year
         <select id="year" disabled><option value="">All years</option></select>
       </label>
+      <button id="download" type="button" disabled>Download TSV</button>
       <div class="filter-actions">
         <label class="include-unplaced">
           <input id="include-unplaced" type="checkbox" autocomplete="off" disabled>
@@ -40,7 +33,14 @@
         </label>
       </div>
     </form>
-    <p id="status" role="status">Loading results…</p>
+    <div class="results-toolbar">
+      <fieldset id="group-by" class="segments" disabled>
+        <legend class="sr">Group results by</legend>
+        <label><input class="sr" type="radio" name="group" value="tournament" autocomplete="off" checked><span>Tournament</span></label>
+        <label><input class="sr" type="radio" name="group" value="fighter" autocomplete="off"><span>Fighter</span></label>
+      </fieldset>
+      <p id="status" role="status">Loading results…</p>
+    </div>
     <div id="results"></div>
     <noscript>Enable JavaScript to browse tournament results.</noscript>
     <footer>
