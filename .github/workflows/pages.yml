@@ -20,12 +20,23 @@ jobs:
         with:
           persist-credentials: false
       - uses: actions/configure-pages@v5
-      - name: Fetch JudoManager results
+      - name: Bundle page assets
         run: |
           mkdir _site
-          cp index.html _site/
           cp -R site _site/
-          python3 jjcb_results.py > _site/jjcb-results.json
+          python3 - <<'PY'
+          from pathlib import Path
+
+          # Deliver the markup, styles, and script together so caches cannot mix releases.
+          html = Path("index.html").read_text(encoding="utf-8")
+          css = Path("site/styles.css").read_text(encoding="utf-8")
+          js = Path("site/results.js").read_text(encoding="utf-8")
+          html = html.replace('<link rel="stylesheet" href="./site/styles.css">', f"<style>\n{css}</style>")
+          html = html.replace('<script type="module" src="./site/results.js"></script>', f'<script type="module">\n{js}</script>')
+          Path("_site/index.html").write_text(html, encoding="utf-8")
+          PY
+      - name: Fetch JudoManager results
+        run: python3 jjcb_results.py > _site/jjcb-results.json
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
